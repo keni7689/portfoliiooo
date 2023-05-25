@@ -7,6 +7,10 @@ font-family: 'Roboto Serif', serif;
 font-family: 'Work Sans', sans-serif;
     box-sizing: border-box;
 }
+
+body{
+    overflow-x: hidden;
+}
 .hero{
 height: 100vh;
 width: 100%;
@@ -62,6 +66,7 @@ h3{
     color:white;
     font-size:25px;
     margin-bottom:50px; 
+    margin-left: 160px;
 }
 h4{
     color:rgb(1, 244, 253);
@@ -107,6 +112,30 @@ h4{
     transition: 0.4s;
 }
 
+/* .bh {
+    background-color:rgb(1, 244, 253);
+    color:rgb(5, 32, 33);
+    text-decoration: none;
+    border:2px solid transparent;
+    font-weight: bold;
+    padding: 13px 30px;
+    border-radius: 30px;
+    transition: 0.4s;
+    margin-left: 100px;
+
+}
+.bh:hover{
+    background-color: transparent;
+    border:2px solid rgb(1, 244, 253);
+    cursor: pointer;
+    color:rgb(255, 255, 255);
+    transition: 0.4s;
+} */
+
+
+
+
+
 /* About Me Section start here */
 
 .Bgimg{
@@ -114,6 +143,8 @@ h4{
     background-size: cover;
     background-repeat: no-repeat;
     height:113vh; 
+    margin: 0;
+    padding: 0;
 }
  .About{ 
     width: 100%;
@@ -122,6 +153,7 @@ h4{
 }
 .About img{
     height:auto;
+    width:598px;
     /* width:430px; */
 }
 .About-width{
@@ -142,9 +174,11 @@ h4{
    text-transform:capitalize ;
    margin-bottom: 20px;
    font-family: 'Oswald', sans-serif;
+   margin-left: 200px;
 }
 .stroke-text{
     text-shadow: 1px 0 0 rgb(255, 255, 255) ;
+    
 }
 .About-text h5{
     color:rgb(5, 32, 33);
@@ -152,6 +186,7 @@ h4{
     font-size:22px;
     text-transform:capitalize ;
     margin-bottom: 25px;
+    margin-left: 200px;
     font-family: 'Oswald', sans-serif;
     text-shadow: 2px 0 0 rgb(255, 255, 255);
  }
@@ -161,6 +196,7 @@ h4{
     line-height:28px;
     font-size:18px;
     margin-bottom: 45px;
+    margin-left: 200px;
     /* text-shadow: 1px 0 0 rgb(5, 32, 33); */
    
  }
@@ -186,6 +222,7 @@ h4{
      padding: 13px 30px;
      border-radius: 30px;
      transition: 0.4s;
+     margin-left: 200px;
 
  }
  button:hover{
@@ -201,7 +238,7 @@ h4{
     background-image: url(./sectionimg.jpg); 
     background-size: cover;
     background-repeat: no-repeat;
-    height:109vh; 
+    height:200vh; 
 }
  .About-2{ 
     width: 100%;
@@ -270,10 +307,158 @@ h4{
  }
  
 
+ /* .BackgroundImg-2{
+    background-image: url(./section_img.jpg); 
+    background-size: cover;
+    background-repeat: no-repeat;
+    height:229vh; 
+} */
+
+.BackgroundImg {
+    background-image: url('./sectionimg.jpg');
+    background-size: cover;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height:149vh; 
+    margin: 0;
+    padding: 0;
+  }
 
  
+ /* css */
+ .skills {
+   /* margin-top: 50px; */
+   margin-top: -20px;
+ }
+ 
 
+ .ui-ux {
+    float: left;
+    width: 50%;
+    
+    margin-left: 20px;
+  }
+ 
+ .web-development {
+   float: right;
+   width: 50%;
+   margin-right:40px;
+ }
+ 
+ .skill {
+   margin-bottom: 20px;
+ }
 
+ .skills h2{
+    color:rgb(5, 32, 33);
+   font-size:75px;
+   text-transform:capitalize ;
+   margin-bottom: 20px;
+   font-family: 'Oswald', sans-serif;
+   margin-left: 600px;
+ }
+ .skills h3{
+    color: #000000;
+    margin-top: 30px;
+ }
+ 
+ .skill p {
+   margin-bottom: 10px;
+   color:rgb(255, 255, 255) ;
+ }
+
+ .ui-ux .skill .jo {
+    color: black;
+  }
+ 
+ .bar {
+   /* height: 20px; */
+   /* background-color: #f2f2f2; */
+   color: aqua;
+   border-radius: 5px;
+   height: 18px;
+    background-color: rgb(0, 0, 0);
+    margin-bottom: 10px;
+ }
+ 
+ .progress {
+   height: 100%;
+   line-height: 20px;
+   text-align: center;
+   color: #fff;
+   border-radius: 5px;
+   background-color: #3de5ff;
+ }
+ 
+ button {
+    background-color: rgb(1, 244, 253);
+    color: rgb(5, 32, 33);
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 13px 30px;
+    border-radius: 30px;
+    transition: 0.4s;
+  }
+  
+  button:hover {
+    background-color: transparent;
+    border: 2px solid rgb(1, 244, 253);
+    cursor: pointer;
+    color: rgb(255, 255, 255);
+    transition: 0.4s;
+  }
+  
+  .skills-section {
+    display: flex;
+    justify-content: center;
+    gap: 70px;
+    background-color: #000000;
+  }
+  .skills .new {
+    /* background-color: #000000;
+    color: #fff; */
+    color:rgb(249, 249, 249);
+    background-color: #000000;
+    font-size:75px;
+    text-transform:capitalize ;
+    
+    font-family: 'Oswald', sans-serif;
+    text-align: center;
+    
+ }
+  
+  .skills-section img {
+    margin-top: 50px;
+    width: 420px;
+    height: 420px;
+    object-fit: cover;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+  
+  .skills-section img:hover {
+    transform: scale(1.1);
+    box-shadow: 0 0 10px rgb(1, 244, 253);
+  }
+
+  /* .skills h1{
+    color:rgb(249, 249, 249);
+    background-color: #000000;
+    font-size:75px;
+    text-transform:capitalize ;
+    margin-bottom: 20px;
+    font-family: 'Oswald', sans-serif;
+    margin-left: 200px;
+ } */
+ /* .stro{
+     text-shadow: 1px 0 0 rgb(255, 255, 255) ;
+     
+ } */
+
+ 
 
 
 
